@@ -1,0 +1,117 @@
+/* Header */
+
+.main-header {
+    border: 1px solid #777777;
+}
+
+.main-nav {
+    padding: 2px 0px;
+}
+
+.main-header img {
+    height: 16px;
+    width: 16px;
+    margin: 0px 5px;
+}
+
+.main-nav > a {
+    text-decoration: none;
+}
+
+.main-nav > a, .nav-user > div {
+    color: black;
+    display: inline-block;
+    padding: 3px 10px;
+    border-right: 1px solid black;
+    height: 1em;
+}
+
+.nav-user {
+    float: right;
+}
+
+.nav-user > .drop-down > a::after {
+    content: "\2304";
+    font-size: 1.5em;
+    color: black;
+    position: absolute;
+    top: 9px;
+}
+
+.nav-user > .drop-down {
+    padding-right: 1.3em;
+    cursor: pointer;
+}
+
+div.drop-down-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.nav-user > .drop-down:hover .drop-down-content {
+    display: block;
+}
+
+.drop-down-content a {
+    padding: 12px 26px;
+    display: block;
+    border-bottom: 1px solid #777777;
+}
+
+.drop-down-content a:last-of-type {
+    border-bottom: none
+}
+
+.main-header > header {
+    border-bottom: 1px solid #777777;
+    padding: 5px 0px;
+}
+
+.main-nav > a:last-of-type, .nav-user > div:last-of-type {
+    border-right: none;
+}
+
+.main-header > section {
+    padding: 5px;
+}
+
+.main-header > section > * {
+    display: inline-block;
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+}
+
+.header-content > * {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.header-contacts > * {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.header-contacts > a {
+    display: block;
+}
+
+#header-cart {
+    margin-top: 2em;
+    float: right;
+}
+
+.header-search {
+    width: 100%;
+}
+
+.header-search > input[type="text"] {
+    width: 40%;
+}
+
+/* end header */
